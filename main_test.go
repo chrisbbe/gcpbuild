@@ -7,3 +7,9 @@ func TestEqual(t *testing.T) {
 		t.Errorf("1 != 1")
 	}
 }
+
+func TestBoolean(t *testing.T) {
+	if true == false {
+		t.Errorf("true != false")
+	}
+}
