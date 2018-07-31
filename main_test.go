@@ -25,3 +25,15 @@ func TestSilly(t *testing.T) {
 		t.Errorf("4 == 2")
 	}
 }
+
+func TestSomething2(t *testing.T) {
+	if 2 == 3 {
+		t.Errorf("2 == 3")
+	}
+}
+
+func TestSilly2(t *testing.T) {
+	if 4 == 2 {
+		t.Errorf("4 == 2")
+	}
+}
